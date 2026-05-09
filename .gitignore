@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Claude Code local settings (personal allowlists, not for the team repo)
+.claude/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Local trace packets generated to /tmp by the loader; do not commit
+/tmp/
